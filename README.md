@@ -12,7 +12,7 @@ This Python script fetches and displays Department of Defense (DoD) vendors with
 
 Run the script:
 
-```python
+```python3
 python dod_vendors.py
 ```
 Follow the prompts:
@@ -28,4 +28,4 @@ https://github.com/user-attachments/assets/1b378dc4-d7e6-48f6-9655-22ef8401cf6d
 
 ## Author 
 
-Michael Mendy (c) 2025.
+_Michael Mendy (c) 2025._
