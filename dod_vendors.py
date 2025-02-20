@@ -21,7 +21,7 @@ def fetch_dod_vendors(page):
         print(f"{Fore.RED}Error: {response.status_code} - {response.text}{Style.RESET_ALL}")
         return None
     data = response.json()
-    # Filter locally to ensure awards are over $25,000
+
     return [v for v in data.get("results", []) if float(v.get("Award Amount", 0)) >= 25000]
 
 def display_vendors(vendors, page):
