@@ -12,7 +12,8 @@ This Python script fetches and displays Department of Defense (DoD) vendors with
 
 Run the script:
 
-bash python dod_vendors.py
+```python
+python dod_vendors.py
 ```
 Follow the prompts:
 
